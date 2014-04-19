@@ -1,0 +1,29 @@
+{
+    "name": "porkchopsandwiches/preserialiserserviceprovider",
+    "description": "A Silex Service Provider for the Preserialiser",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cam Morrow",
+            "email": "cam.morrow@gmail.com",
+            "homepage": "https://github.com/porkchopsandwiches"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/porkchopsandwiches/preserialiser"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.0",
+        "porkchopsandwiches/preserialiser": "dev-master"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {"PorkChopSandwiches\\PreserialiserServiceProvider": "lib/src"}
+    }
+}
