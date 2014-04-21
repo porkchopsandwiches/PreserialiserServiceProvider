@@ -1,5 +1,4 @@
-# porkchopsandwiches/PreserialiserServiceProvider
-===
+# PreserialiserServiceProvider
 
 A Silex Service Provider for the [Preserialiser](https://github.com/porkchopsandwiches/preserialiser) library.
 
