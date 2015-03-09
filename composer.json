@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "silex/silex": "~1.0",
-        "porkchopsandwiches/preserialiser": "dev-master"
+        "silex/silex": "~1.2",
+        "porkchopsandwiches/preserialiser": "~1.0"
     },
     "require-dev":{
     },
